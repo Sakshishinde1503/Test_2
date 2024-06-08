@@ -9,6 +9,9 @@ class Lib
 	void create()
 	{
 		System.out.println("Enter the number of books:");
+		System.out.println("Enter the number of books:");
+		System.out.println("Enter the number of books:");
+		System.out.println("Enter the number of books:");
 		b_no=input.nextInt();
 		for(int i=0;i<b_no;i++)
 		{
