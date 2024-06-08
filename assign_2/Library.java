@@ -3,18 +3,12 @@ import java.util.Scanner;
 
 class Lib
 {
-
-
 	Scanner input=new Scanner(System.in);
-
 	int b_no;
 	Book obj1[]=new Book[50];
 	void create()
 	{
 		System.out.println("Enter the number of books:");
-
-		System.out.println("Mayuri Gadhave");
-
 		b_no=input.nextInt();
 		for(int i=0;i<b_no;i++)
 		{
